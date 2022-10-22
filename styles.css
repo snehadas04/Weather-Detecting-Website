@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('images/backg.jpg');
+    height: 100vh;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: top center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+}
+
+.app-main {
+    width: 80vh;
+    margin: 50px auto;
+    background-color: rgba(177, 196, 213, 0.6);
+    padding: 25px;
+    text-align: center;
+}
+
+.app-main h1{
+    font-weight: bolder;
+    font-size: 50px;
+    color: rgb(3, 43, 81);
+}
+
+.app-main > * {
+    margin-bottom: 20px;
+}
+
+.input-box {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.903);
+    border: none;
+    outline: none;
+    color: #582233;
+    font-size: 2rem;
+    height: 50px;
+    border-radius: 285px;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.input-box:focus {
+    background-color: rgba(255,255,255);
+}
+
+
+.weather-body {
+    display: none;
+    color: #9f0423;
+    padding: 20px;
+    line-height: 1.4rem;
+    border-radius: 60px;
+    background-color: rgba(255,255,255,0.6);
+    height: 46vh;
+}
+
+.location-details {
+    font-weight: bolder;
+    font-size: 26px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.weather-status {
+    padding: 25px;
+}
+
+.temp {
+    font-size: 50pt;
+    font-weight: 700;
+    margin: 30px 0;
+    text-shadow: 2px 4px rgba(0,0,0,0.3);
+}
+
+.min-max, .weather {
+    font-size: 18pt;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
